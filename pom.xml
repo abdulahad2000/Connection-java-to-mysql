@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jdbc:project xmlns:jdbc="http://maven.apache.org/POM/4.0.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <jdbc:modelVersion>4.0.0</jdbc:modelVersion>
+
+    <jdbc:groupId>org.example</jdbc:groupId>
+    <jdbc:artifactId>myteacher</jdbc:artifactId>
+    <jdbc:version>1.0-SNAPSHOT</jdbc:version>
+
+    <jdbc:properties>
+        <jdbc:maven.compiler.source>19</jdbc:maven.compiler.source>
+        <jdbc:maven.compiler.target>19</jdbc:maven.compiler.target>
+        <jdbc:project.build.sourceEncoding>UTF-8</jdbc:project.build.sourceEncoding>
+    </jdbc:properties>
+
+    <jdbc:dependencies><!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <jdbc:dependency>
+            <jdbc:groupId>mysql</jdbc:groupId>
+            <jdbc:artifactId>mysql-connector-java</jdbc:artifactId>
+            <jdbc:version>8.0.27</jdbc:version>
+        </jdbc:dependency>
+    </jdbc:dependencies>
+</jdbc:project>
